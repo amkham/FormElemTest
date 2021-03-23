@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace FormElemTest
 {
-    public static class RichBoxEvents
+    static public class RichBoxEvents
     {
 
         // target - целевое слово для замены
@@ -32,14 +32,14 @@ namespace FormElemTest
 
 
         // start, end - границы поиска
-        static public void FindAndChangeColor(string target, string fileLocation, Color color, int start, int end)
+        public static void FindAndChangeColor(string target, string fileLocation, Color color, int start, int end)
         {
             
         }
 
 
         // sample - замена 
-        static public void FindAndChangeWord(string target, string sample, string fileLocation, int start, int end)
+        public static void FindAndChangeWord(string target, string sample, string fileLocation, int start, int end)
         {
 
         }

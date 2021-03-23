@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using FormElemTest;
 
 namespace UnitTest
 {
@@ -12,6 +13,14 @@ namespace UnitTest
         {
 
           
+        }
+
+        [TestMethod]
+        public void FindAndChangeWordTest()
+        {
+
+     
+        
         }
     }
 }
